@@ -1,0 +1,52 @@
+@font-face {
+  font-family: FiraCode;
+  src: url(../../assets/font/FiraCode-Regular.otf);
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35%;
+  font-size: 1.8em;
+  font-weight: 600;
+  font-family: FiraCode;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+.code {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.icone-key {
+  padding-right: 3px;
+}
+
+.copy-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 73%;
+  right: 1%;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 600px) {
+  .display {
+    top: 35%;
+    font-size: 1.3em;
+  }
+  .code {
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+  .copy-icon {
+    top: 61%;
+    right: 10%;
+    font-size: 2.5em;
+  }
+}
