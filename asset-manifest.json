@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wpa-generator/static/css/main.b1099089.chunk.css",
+    "main.js": "/wpa-generator/static/js/main.edb822f2.chunk.js",
+    "main.js.map": "/wpa-generator/static/js/main.edb822f2.chunk.js.map",
+    "runtime-main.js": "/wpa-generator/static/js/runtime-main.316cf35f.js",
+    "runtime-main.js.map": "/wpa-generator/static/js/runtime-main.316cf35f.js.map",
+    "static/js/2.5d528323.chunk.js": "/wpa-generator/static/js/2.5d528323.chunk.js",
+    "static/js/2.5d528323.chunk.js.map": "/wpa-generator/static/js/2.5d528323.chunk.js.map",
+    "static/js/3.ecc7ed84.chunk.js": "/wpa-generator/static/js/3.ecc7ed84.chunk.js",
+    "static/js/3.ecc7ed84.chunk.js.map": "/wpa-generator/static/js/3.ecc7ed84.chunk.js.map",
+    "index.html": "/wpa-generator/index.html",
+    "static/css/main.b1099089.chunk.css.map": "/wpa-generator/static/css/main.b1099089.chunk.css.map",
+    "static/js/2.5d528323.chunk.js.LICENSE.txt": "/wpa-generator/static/js/2.5d528323.chunk.js.LICENSE.txt",
+    "static/media/4608699.10790d48.png": "/wpa-generator/static/media/4608699.10790d48.png",
+    "static/media/style.css": "/wpa-generator/static/media/bg4.54c55b57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.316cf35f.js",
+    "static/js/2.5d528323.chunk.js",
+    "static/css/main.b1099089.chunk.css",
+    "static/js/main.edb822f2.chunk.js"
+  ]
+}
