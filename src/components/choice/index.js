@@ -67,8 +67,8 @@ const Choice = () => {
             {" "}
             <div className="selection-contente">
               <label className="label">Complexity :</label>
-              <RadioGroup onChange={setChoice} value={choice}>
-                <Stack direction="column">
+              <RadioGroup  onChange={setChoice} value={choice}>
+                <Stack className="radio" direction="column">
                   <Radio value="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789">
                     Simple 64 bits
                   </Radio>
@@ -83,11 +83,11 @@ const Choice = () => {
             </div>
             <div className="selection-contente">
               <label className="label">Length :</label>
-              <RadioGroup onChange={setSize} value={size}>
-                <Stack direction="column">
-                  <Radio value="8">WPA (8 characters)</Radio>
-                  <Radio value="20">WPA 2 (20 characters)</Radio>
-                  <Radio value="60">WPA 2 (63 characters)</Radio>
+              <RadioGroup  onChange={setSize} value={size}>
+                <Stack className="radio" direction="column">
+                  <Radio value="8">8 character</Radio>
+                  <Radio value="20">20 character</Radio>
+                  <Radio value="60">63 character</Radio>
                 </Stack>
               </RadioGroup>
             </div>
